@@ -1,0 +1,69 @@
+$flaticon_zaeem javid-font: "flaticon_zaeem javid";
+
+@font-face {
+    font-family: $flaticon_zaeem javid-font;
+    src: url("./flaticon_zaeem javid.woff2?6ddbcb91cdfac56e08d232bccfcea8c7") format("woff2"),
+url("./flaticon_zaeem javid.woff?6ddbcb91cdfac56e08d232bccfcea8c7") format("woff"),
+url("./flaticon_zaeem javid.eot?6ddbcb91cdfac56e08d232bccfcea8c7#iefix") format("embedded-opentype"),
+url("./flaticon_zaeem javid.ttf?6ddbcb91cdfac56e08d232bccfcea8c7") format("truetype"),
+url("./flaticon_zaeem javid.svg?6ddbcb91cdfac56e08d232bccfcea8c7#flaticon_zaeem javid") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_zaeem javid !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_zaeem javid-map: (
+    "check-mark": "\f101",
+    "idea": "\f102",
+    "vector": "\f103",
+    "web-designing": "\f104",
+    "editor": "\f105",
+    "asterisk": "\f106",
+    "email-marketing": "\f107",
+    "sustainability": "\f108",
+    "double-quotes": "\f109",
+    "add": "\f10a",
+    "ads": "\f10b",
+);
+
+.flaticon-check-mark:before {
+    content: map-get($flaticon_zaeem javid-map, "check-mark");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon_zaeem javid-map, "idea");
+}
+.flaticon-vector:before {
+    content: map-get($flaticon_zaeem javid-map, "vector");
+}
+.flaticon-web-designing:before {
+    content: map-get($flaticon_zaeem javid-map, "web-designing");
+}
+.flaticon-editor:before {
+    content: map-get($flaticon_zaeem javid-map, "editor");
+}
+.flaticon-asterisk:before {
+    content: map-get($flaticon_zaeem javid-map, "asterisk");
+}
+.flaticon-email-marketing:before {
+    content: map-get($flaticon_zaeem javid-map, "email-marketing");
+}
+.flaticon-sustainability:before {
+    content: map-get($flaticon_zaeem javid-map, "sustainability");
+}
+.flaticon-double-quotes:before {
+    content: map-get($flaticon_zaeem javid-map, "double-quotes");
+}
+.flaticon-add:before {
+    content: map-get($flaticon_zaeem javid-map, "add");
+}
+.flaticon-ads:before {
+    content: map-get($flaticon_zaeem javid-map, "ads");
+}
